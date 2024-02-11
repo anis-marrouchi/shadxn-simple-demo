@@ -1,0 +1,38 @@
+[
+  {
+    "name": "google-gemini-effect",
+    "dependencies": [
+      "framer-motion",
+      "clsx",
+      "tailwind-merge"
+    ],
+    "files": [
+      "ui/google-gemini-effect.tsx"
+    ],
+    "type": "components:ui"
+  },
+  {
+    "name": "typewriter-effect",
+    "dependencies": [
+      "framer-motion",
+      "clsx",
+      "tailwind-merge"
+    ],
+    "files": [
+      "ui/typewriter-effect.tsx"
+    ],
+    "type": "components:ui"
+  },
+  {
+    "name": "snarky-button",
+    "dependencies": [
+      "framer-motion",
+      "clsx",
+      "tailwind-merge"
+    ],
+    "files": [
+      "ui/snarky-button.tsx"
+    ],
+    "type": "components:ui"
+  }
+]

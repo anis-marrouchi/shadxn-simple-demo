@@ -1,0 +1,15 @@
+{
+  "name": "snarky-button",
+  "dependencies": [
+    "framer-motion",
+    "clsx",
+    "tailwind-merge"
+  ],
+  "files": [
+    {
+      "name": "snarky-button.tsx",
+      "content": "import React from 'react';\nconst phrases = [\n  \"Oh, you again?\",\n  \"Didn't expect that, did you?\",\n  \"I'm not lazy, I'm just on energy-saving mode.\",\n  \"Click me harder, maybe I'll care.\",\n  \"I'm like a cat, I only listen when I want to.\",\n  \"Error 404: Motivation not found.\",\n  \"Keep clicking, maybe something will happen... or not.\",\n  \"I'm not arguing, I'm just explaining why I'm right.\",\n  \"Are you sure you want to do that?\",\n  \"Congratulations, you found the most useless button!\"\n];\nexport const SnarkyButton = () => {\n  const handleClick = () => {\n    const randomIndex = Math.floor(Math.random() * phrases.length);\n    alert(phrases[randomIndex]);\n  };\nreturn (\n    <button onClick={handleClick} className=\"bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded\">\n      Click me if you dare\n    </button>\n  );\n};"
+    }
+  ],
+  "type": "components:ui"
+}
