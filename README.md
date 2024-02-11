@@ -1,6 +1,7 @@
 # The Sadxn CLI Demo
 ## Getting Started
 [Revolutionizing Component Management with Shadxn](https://medium.com/@anis.marrouchi/revolutionizing-component-management-with-shadxn-73569fdfd0d6)
+
 First, run the development server:
 
 ```bash
